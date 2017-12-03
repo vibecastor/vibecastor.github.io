@@ -1,0 +1,94 @@
+/* Note to students: Some properties are given to you to fill out,
+others you can modify as they stand, and if you have time,
+there are definitely some properties you should add!*/
+
+    html {
+      height: 100%;
+    }
+    body {
+       width: 800px;
+       height: 100%;
+       background-color: #e8ffcb;
+    }
+
+    header {
+        background-color: #8495c4;
+        padding: 5px;
+        font-size:20 ;
+        display: block;
+        text-align: center;
+    }
+    nav {
+        float: left;
+        width: 100%;
+        background-color: #8495c4;
+        box-sizing: border-box;
+        box-decoration-break: slice;
+        border-radius: 5;
+        border: 3px solid black;
+
+    }
+    nav ul {
+        padding:5 ;
+        float: left;
+        border-bottom:10 ;
+        list-style-type: none;
+    }
+    nav li {
+        float: left;
+    }
+    nav li a {
+        display: block;
+        height: 25px;
+        padding: 12px 18px 8px 18px;
+        vertical-align: middle;
+    }
+    a {
+        color: #677d30;
+    }
+    section {
+        width: 73%;
+        display: inline-block;
+        float: left;
+    }
+    aside {
+        width: 17%;
+        display: inline-block;
+        background-color:#801147;
+        padding:;
+        min-height: 100%;
+    }
+    aside ul {
+        list-style-type: none;
+    }
+    footer {
+        width: 790px;
+        background-color:#7d2c11;
+        color:;
+        clear: both;
+        display: block;
+    }
+    img {
+      height: 120px;
+    }
+
+    .cover {
+      width: 260px;
+      object-fit: cover;
+    }
+    .top3 {
+      box-sizing: border-box;
+      box-decoration-break: slice;
+      border-radius: 5;
+      border: 3px solid black;
+
+    }
+
+.bean{
+  /*text-align: center;*/
+  display: block;
+  margin: auto;
+}
+form{
+  text-align: center;
+}
